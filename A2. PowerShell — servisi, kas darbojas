@@ -1,3 +1,5 @@
+#Problēma bija ka šajā rindā pietrūka ...$._Status... Where-Object { Status -eq "Running" } |
+
 Get-Service | 
     Where-Object { $_.Status -eq "Running" } |
     Sort-Object Name |
