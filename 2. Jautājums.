@@ -1,0 +1,6 @@
+Audzēknis uzrakstīja CSV atskaiti. Atverot to Excel, latviešu burti ir kārtībā, bet visas
+kolonnas ir salipušas vienā. Nosauc cēloni un labojumu.
+
+Pēc manām domām viens no cēloņiem varētu but tas, saglabājot failu kautkas nogāja greizi un tas aizveda pie kolonu saplūšanas.
+vēl arī šis der (šis no reddit linka) Izmantojiet opciju "Dati" – "No faila" – "No CSV"
+https://www.reddit.com/r/excel/comments/j6cay2/why_do_my_csv_files_sometimes_get_messed_up_where/
