@@ -1,1 +1,12 @@
+Kļūda bija tā ka if "Critical" bija rakstīts ša'di bet print bija Critical visi ar lielajiem.
+skaits = 0
 
+with open("sistema.log", encoding="utf-8") as f:
+    for rinda in f:
+        if "CRITICAL" in rinda:
+            skaits = skaits + 1
+
+print("CRITICAL rindas:", skaits)
+
+
+Output: CRITICAL rindas: 23
