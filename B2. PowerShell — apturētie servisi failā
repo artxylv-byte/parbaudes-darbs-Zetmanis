@@ -7,3 +7,4 @@ $apturetie = Get-Service |
 
 $apturetie | Export-Csv -Path "apturetie.csv" -NoTypeInformation -Encoding UTF8
 Write-Host "Fails gatavs"
+
