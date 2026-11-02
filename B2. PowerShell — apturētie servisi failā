@@ -1,19 +1,1 @@
-# Netika pieskaitīts kods tadēļ skaits radijas tukšs
-#Pietrūka kods kas izvadija rezultātu
-#nebija salikts pareizi un print kopsavilkums bija pirms saraksta.
 
-
-$apturetie = Get-Service |
-    Where-Object { $_.Status -eq "Stopped" } |
-    Sort-Object Name |
-    Select-Object Name, Status
-
-$apturetie | Export-Csv -Path "apturetie.csv" -NoTypeInformation -Encoding UTF8
-Write-Host "Fails gatavs"
-
-Output:
-Limenu kopsavilkums
-INFO 747
-WARNING 284
-ERROR 146
-CRITICAL 23
