@@ -1,1 +1,9 @@
+#Atbilde uz šo tika ņemta no Prezentācijas 4. slaida.
 
+$apturetie = Get-Service |
+    Where-Object { $_.Status -eq "Stopped" } |
+    Sort-Object Name |
+    Select-Object Name, Status
+
+$apturetie | Export-Csv -Path "apturetie.csv" -NoTypeInformation -Encoding UTF8
+Write-Host "Fails gatavs"
